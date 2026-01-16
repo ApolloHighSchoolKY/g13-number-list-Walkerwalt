@@ -19,7 +19,7 @@ public class Lab16b
 
 
 		//add more test cases
-		NumberAnalyzer testTwo = new NumberAnalyzer("1 3 5 2 4 6 28 47");
+		NumberAnalyzer testTwo = new NumberAnalyzer("1 3 5 2 4 6 28 47"); 
 		System.out.println(testTwo);
 		System.out.println("odd count = "+testTwo.countOdds());
 		System.out.println("even count = "+testTwo.countEvens());

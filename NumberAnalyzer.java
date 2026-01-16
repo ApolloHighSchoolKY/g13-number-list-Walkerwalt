@@ -50,7 +50,9 @@ public class NumberAnalyzer
 	{
       	int oddCount=0;
 		
+		//Running total to traverse the list
 		for(Number x: list)
+			//method call to check if the number is odd and add to odd count if it is
 			if (x.isOdd())
 				oddCount++;
 
@@ -61,7 +63,9 @@ public class NumberAnalyzer
 	{
       	int evenCount=0;
 
+		//Running total to traverse the list
 		for(Number x: list)
+			//method call to check if the number is NOT odd and add to even count if it is NOT
 			if (!x.isOdd())
 				evenCount++;
 
@@ -79,7 +83,9 @@ public class NumberAnalyzer
 	{
       	int perfectCount=0;
 
+		//Running total to traverse the list
 		for(Number x: list)
+			//Method call to check if the number is a perfect number
 			if (x.isPerfect())
 				perfectCount++;
 
